@@ -4,7 +4,9 @@ a = "Hello"
 b = "Sam" 
 c = "my student number is"
 num = 232
+d = "\n*************'\n"
 
+# print(a + " " + b +  ", " +  c + " " + str(num) , end="\n***********\n")
+# concatenation
 
-print(a + " " + b +  ", " +  c + " " + str(num) , end="\n***********\n")
-
+print(f"'{a} {b}, {c} {num}.", end=d)
